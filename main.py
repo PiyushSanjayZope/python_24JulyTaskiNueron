@@ -3,7 +3,7 @@ import pymongo
 import mysql.connector as conn
 import pandas as pd
 import json
-from sqlalchemy import create_engine
+import os
 
 
 logging.basicConfig(filename="ineuron_task_24july.log", format='%(asctime)s : %(message)s', filemode="w", level=logging.DEBUG)
@@ -77,7 +77,7 @@ class Ineuron24JulyTask:
     # Function to convert data into JSON format
     def convert_to_json_upload_mongo(self,client):
         attribute_dataset_df = pd.read_excel(r"D:\Next Steps\iNeuron\Datasets\Attribute DataSet.xlsx")
-        data = attribute_dataset_df.to_json(orient="records", default_handler=dict)
+        data = attribute_dataset_df.to_jsoxn(orient="records", default_handler=dict)
         logging.info("Data converted in to json")
         data = json.loads(data)
         print(data)

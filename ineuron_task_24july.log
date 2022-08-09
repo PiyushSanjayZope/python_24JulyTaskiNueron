@@ -1,4 +1,5 @@
-2022-07-30 22:22:38,840 : You are now connected with MySQL
-2022-07-30 22:22:38,960 : You are now connected with MongoDB
-2022-07-30 22:22:39,351 : Data converted in to json
-2022-07-30 22:22:39,792 : Data upload successful
+2022-08-10 01:30:26,243 : You are now connected with MySQL
+2022-08-10 01:30:26,300 : You have created database successfully
+2022-08-10 01:30:26,300 : shopping database is in use
+2022-08-10 01:30:26,300 : AttributeTable creation done
+2022-08-10 01:30:26,308 : DressSalesTable creation done
